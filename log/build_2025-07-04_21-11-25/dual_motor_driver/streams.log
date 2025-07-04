@@ -1,0 +1,21 @@
+[13.515s] Invoking command in '/home/ubuntu/SlamRobot/src/dual_motor_driver': PYTHONPATH=/home/ubuntu/SlamRobot/build/dual_motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_motor_driver build --build-base /home/ubuntu/SlamRobot/build/dual_motor_driver/build install --record /home/ubuntu/SlamRobot/build/dual_motor_driver/install.log --install-scripts $base/lib/dual_motor_driver --single-version-externally-managed install_data
+[16.580s] running egg_info
+[16.587s] writing ../../build/dual_motor_driver/dual_motor_driver.egg-info/PKG-INFO
+[16.590s] writing dependency_links to ../../build/dual_motor_driver/dual_motor_driver.egg-info/dependency_links.txt
+[16.593s] writing entry points to ../../build/dual_motor_driver/dual_motor_driver.egg-info/entry_points.txt
+[16.595s] writing requirements to ../../build/dual_motor_driver/dual_motor_driver.egg-info/requires.txt
+[16.597s] writing top-level names to ../../build/dual_motor_driver/dual_motor_driver.egg-info/top_level.txt
+[17.021s] reading manifest file '../../build/dual_motor_driver/dual_motor_driver.egg-info/SOURCES.txt'
+[17.033s] writing manifest file '../../build/dual_motor_driver/dual_motor_driver.egg-info/SOURCES.txt'
+[17.037s] running build
+[17.039s] running build_py
+[17.040s] running install
+[17.046s] running install_lib
+[17.070s] running install_data
+[17.073s] running install_egg_info
+[17.092s] removing '/home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages/dual_motor_driver-1.0.0-py3.8.egg-info' (and everything under it)
+[17.096s] Copying ../../build/dual_motor_driver/dual_motor_driver.egg-info to /home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages/dual_motor_driver-1.0.0-py3.8.egg-info
+[17.113s] running install_scripts
+[17.317s] Installing driver_node script to /home/ubuntu/SlamRobot/install/dual_motor_driver/lib/dual_motor_driver
+[17.322s] writing list of installed files to '/home/ubuntu/SlamRobot/build/dual_motor_driver/install.log'
+[17.630s] Invoked command in '/home/ubuntu/SlamRobot/src/dual_motor_driver' returned '0': PYTHONPATH=/home/ubuntu/SlamRobot/build/dual_motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_motor_driver build --build-base /home/ubuntu/SlamRobot/build/dual_motor_driver/build install --record /home/ubuntu/SlamRobot/build/dual_motor_driver/install.log --install-scripts $base/lib/dual_motor_driver --single-version-externally-managed install_data

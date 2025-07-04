@@ -1,0 +1,23 @@
+[14.167s] Invoking command in '/home/ubuntu/SlamRobot/src/sensor_spawn': PYTHONPATH=/home/ubuntu/SlamRobot/build/sensor_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_spawn build --build-base /home/ubuntu/SlamRobot/build/sensor_spawn/build install --record /home/ubuntu/SlamRobot/build/sensor_spawn/install.log --install-scripts $base/lib/sensor_spawn --single-version-externally-managed install_data
+[17.326s] running egg_info
+[17.334s] writing ../../build/sensor_spawn/sensor_spawn.egg-info/PKG-INFO
+[17.337s] writing dependency_links to ../../build/sensor_spawn/sensor_spawn.egg-info/dependency_links.txt
+[17.339s] writing entry points to ../../build/sensor_spawn/sensor_spawn.egg-info/entry_points.txt
+[17.349s] writing requirements to ../../build/sensor_spawn/sensor_spawn.egg-info/requires.txt
+[17.350s] writing top-level names to ../../build/sensor_spawn/sensor_spawn.egg-info/top_level.txt
+[17.788s] reading manifest file '../../build/sensor_spawn/sensor_spawn.egg-info/SOURCES.txt'
+[17.808s] writing manifest file '../../build/sensor_spawn/sensor_spawn.egg-info/SOURCES.txt'
+[17.821s] running build
+[17.834s] running build_py
+[17.838s] running install
+[17.840s] running install_lib
+[17.853s] running install_data
+[17.857s] creating /home/ubuntu/SlamRobot/install/sensor_spawn/share/sensor_spawn/launch
+[17.860s] copying launch/sensor_nodes.launch.py -> /home/ubuntu/SlamRobot/install/sensor_spawn/share/sensor_spawn/launch
+[17.863s] running install_egg_info
+[17.887s] removing '/home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages/sensor_spawn-1.0.0-py3.8.egg-info' (and everything under it)
+[17.898s] Copying ../../build/sensor_spawn/sensor_spawn.egg-info to /home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages/sensor_spawn-1.0.0-py3.8.egg-info
+[17.928s] running install_scripts
+[18.256s] Installing sensor_nodes script to /home/ubuntu/SlamRobot/install/sensor_spawn/lib/sensor_spawn
+[18.266s] writing list of installed files to '/home/ubuntu/SlamRobot/build/sensor_spawn/install.log'
+[18.516s] Invoked command in '/home/ubuntu/SlamRobot/src/sensor_spawn' returned '0': PYTHONPATH=/home/ubuntu/SlamRobot/build/sensor_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_spawn build --build-base /home/ubuntu/SlamRobot/build/sensor_spawn/build install --record /home/ubuntu/SlamRobot/build/sensor_spawn/install.log --install-scripts $base/lib/sensor_spawn --single-version-externally-managed install_data

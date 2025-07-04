@@ -1,0 +1,21 @@
+[13.513s] Invoking command in '/home/ubuntu/SlamRobot/src/lidar_control': PYTHONPATH=/home/ubuntu/SlamRobot/build/lidar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_control build --build-base /home/ubuntu/SlamRobot/build/lidar_control/build install --record /home/ubuntu/SlamRobot/build/lidar_control/install.log --install-scripts $base/lib/lidar_control --single-version-externally-managed install_data
+[16.508s] running egg_info
+[16.515s] writing ../../build/lidar_control/lidar_control.egg-info/PKG-INFO
+[16.518s] writing dependency_links to ../../build/lidar_control/lidar_control.egg-info/dependency_links.txt
+[16.520s] writing entry points to ../../build/lidar_control/lidar_control.egg-info/entry_points.txt
+[16.524s] writing requirements to ../../build/lidar_control/lidar_control.egg-info/requires.txt
+[16.525s] writing top-level names to ../../build/lidar_control/lidar_control.egg-info/top_level.txt
+[16.947s] reading manifest file '../../build/lidar_control/lidar_control.egg-info/SOURCES.txt'
+[16.955s] writing manifest file '../../build/lidar_control/lidar_control.egg-info/SOURCES.txt'
+[16.968s] running build
+[16.969s] running build_py
+[16.972s] running install
+[16.974s] running install_lib
+[16.985s] running install_data
+[16.987s] running install_egg_info
+[17.006s] removing '/home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages/lidar_control-1.0.0-py3.8.egg-info' (and everything under it)
+[17.011s] Copying ../../build/lidar_control/lidar_control.egg-info to /home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages/lidar_control-1.0.0-py3.8.egg-info
+[17.028s] running install_scripts
+[17.249s] Installing lidar_viz script to /home/ubuntu/SlamRobot/install/lidar_control/lib/lidar_control
+[17.269s] writing list of installed files to '/home/ubuntu/SlamRobot/build/lidar_control/install.log'
+[17.720s] Invoked command in '/home/ubuntu/SlamRobot/src/lidar_control' returned '0': PYTHONPATH=/home/ubuntu/SlamRobot/build/lidar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_control build --build-base /home/ubuntu/SlamRobot/build/lidar_control/build install --record /home/ubuntu/SlamRobot/build/lidar_control/install.log --install-scripts $base/lib/lidar_control --single-version-externally-managed install_data
