@@ -29,4 +29,14 @@ def generate_launch_description():
             parameters=[{'video_device': '/dev/video0'}],
             output='screen'
         ),
+        # SLAM Toolbox (online async mode)
+        Node(
+            package='slam_toolbox',
+            executable='async_slam_toolbox_node',
+            name='slam_toolbox',
+            output='screen',
+            parameters=[
+                {'use_sim_time': False}
+            ]
+        )
     ])
