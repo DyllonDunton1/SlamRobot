@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: lidar-control
+Version: 1.0.0
+Summary: Visualize LidarScan and allow for goal_pose setting
+Home-page: UNKNOWN
+Maintainer: Dyllon Dunton
+Maintainer-email: duntondyllon@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
