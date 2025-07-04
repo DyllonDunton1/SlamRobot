@@ -1,0 +1,6 @@
+source;share/sensor_spawn/hook/pythonpath.ps1
+source;share/sensor_spawn/hook/pythonpath.dsv
+source;share/sensor_spawn/hook/pythonpath.sh
+source;share/sensor_spawn/hook/ament_prefix_path.ps1
+source;share/sensor_spawn/hook/ament_prefix_path.dsv
+source;share/sensor_spawn/hook/ament_prefix_path.sh

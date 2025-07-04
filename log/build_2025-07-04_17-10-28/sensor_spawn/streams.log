@@ -1,0 +1,34 @@
+[0.708s] Invoking command in '/home/dyllon/Documents/SlamRobot/src/sensor_spawn': PYTHONPATH=/home/dyllon/Documents/SlamRobot/build/sensor_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dyllon/Documents/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_spawn build --build-base /home/dyllon/Documents/SlamRobot/build/sensor_spawn/build install --record /home/dyllon/Documents/SlamRobot/build/sensor_spawn/install.log --install-scripts $base/lib/sensor_spawn --single-version-externally-managed install_data
+[0.840s] running egg_info
+[0.840s] creating ../../build/sensor_spawn/sensor_spawn.egg-info
+[0.840s] writing ../../build/sensor_spawn/sensor_spawn.egg-info/PKG-INFO
+[0.840s] writing dependency_links to ../../build/sensor_spawn/sensor_spawn.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../../build/sensor_spawn/sensor_spawn.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/sensor_spawn/sensor_spawn.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/sensor_spawn/sensor_spawn.egg-info/top_level.txt
+[0.841s] writing manifest file '../../build/sensor_spawn/sensor_spawn.egg-info/SOURCES.txt'
+[0.861s] reading manifest file '../../build/sensor_spawn/sensor_spawn.egg-info/SOURCES.txt'
+[0.862s] writing manifest file '../../build/sensor_spawn/sensor_spawn.egg-info/SOURCES.txt'
+[0.862s] running build
+[0.862s] running build_py
+[0.862s] creating /home/dyllon/Documents/SlamRobot/build/sensor_spawn/build
+[0.862s] creating /home/dyllon/Documents/SlamRobot/build/sensor_spawn/build/lib
+[0.862s] creating /home/dyllon/Documents/SlamRobot/build/sensor_spawn/build/lib/sensor_spawn
+[0.863s] copying sensor_spawn/__init__.py -> /home/dyllon/Documents/SlamRobot/build/sensor_spawn/build/lib/sensor_spawn
+[0.863s] running install
+[0.863s] running install_lib
+[0.863s] creating /home/dyllon/Documents/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages/sensor_spawn
+[0.864s] copying /home/dyllon/Documents/SlamRobot/build/sensor_spawn/build/lib/sensor_spawn/__init__.py -> /home/dyllon/Documents/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages/sensor_spawn
+[0.864s] byte-compiling /home/dyllon/Documents/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages/sensor_spawn/__init__.py to __init__.cpython-38.pyc
+[0.864s] running install_data
+[0.864s] creating /home/dyllon/Documents/SlamRobot/install/sensor_spawn/share/ament_index
+[0.865s] creating /home/dyllon/Documents/SlamRobot/install/sensor_spawn/share/ament_index/resource_index
+[0.865s] creating /home/dyllon/Documents/SlamRobot/install/sensor_spawn/share/ament_index/resource_index/packages
+[0.865s] copying resource/sensor_spawn -> /home/dyllon/Documents/SlamRobot/install/sensor_spawn/share/ament_index/resource_index/packages
+[0.865s] copying package.xml -> /home/dyllon/Documents/SlamRobot/install/sensor_spawn/share/sensor_spawn
+[0.865s] running install_egg_info
+[0.866s] Copying ../../build/sensor_spawn/sensor_spawn.egg-info to /home/dyllon/Documents/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages/sensor_spawn-1.0.0-py3.8.egg-info
+[0.866s] running install_scripts
+[0.877s] Installing sensor_nodes script to /home/dyllon/Documents/SlamRobot/install/sensor_spawn/lib/sensor_spawn
+[0.878s] writing list of installed files to '/home/dyllon/Documents/SlamRobot/build/sensor_spawn/install.log'
+[0.899s] Invoked command in '/home/dyllon/Documents/SlamRobot/src/sensor_spawn' returned '0': PYTHONPATH=/home/dyllon/Documents/SlamRobot/build/sensor_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dyllon/Documents/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_spawn build --build-base /home/dyllon/Documents/SlamRobot/build/sensor_spawn/build install --record /home/dyllon/Documents/SlamRobot/build/sensor_spawn/install.log --install-scripts $base/lib/sensor_spawn --single-version-externally-managed install_data
