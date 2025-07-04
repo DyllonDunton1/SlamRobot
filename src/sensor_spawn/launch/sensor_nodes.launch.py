@@ -11,7 +11,22 @@ def generate_launch_description():
             parameters=[{'port': '/dev/ttyUSB0'}],
             output='screen'
         ),
-
+        # Static transform: odom → base_footprint
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='static_transform_pub',
+            arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint'],
+            output='screen'
+        ),
+        # Static transform: base_footprint → base_link
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='static_transform_pub',
+            arguments=['0', '0', '0', '0', '0', '0', 'base_footprint', 'base_link'],
+            output='screen'
+        ),
         # Static transform: base_link → laser
         Node(
             package='tf2_ros',

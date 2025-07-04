@@ -1,4 +1,12 @@
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import LaserScan, Image
 from nav_msgs.msg import OccupancyGrid  
+from cv_bridge import CvBridge
+from rclpy.qos import QoSProfile, ReliabilityPolicy
+import numpy as np
+import pygame
+import cv2
 
 class LidarViz(Node):
     def __init__(self):
@@ -12,7 +20,7 @@ class LidarViz(Node):
         # Subscribers
         self.create_subscription(LaserScan, '/scan', self.scan_callback, self.qos)
         self.create_subscription(Image, '/image_raw', self.image_callback, self.qos)
-        self.create_subscription(OccupancyGrid, '/map', self.map_callback, 10)  
+        self.create_subscription(OccupancyGrid, '/map', self.map_callback, self.qos)  
 
         self.bridge = CvBridge()
 
@@ -84,3 +92,19 @@ class LidarViz(Node):
         pygame.display.flip()
         self.clock.tick(30)
         return True
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = LidarViz()
+    try:
+        while rclpy.ok():
+            rclpy.spin_once(node, timeout_sec=0.01)
+            if not node.draw():
+                break
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+        pygame.quit()
+
+if __name__ == '__main__':
+    main()
