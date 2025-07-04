@@ -1,0 +1,3 @@
+[console_scripts]
+driver_node = dual_motor_driver.driver_node:main
+

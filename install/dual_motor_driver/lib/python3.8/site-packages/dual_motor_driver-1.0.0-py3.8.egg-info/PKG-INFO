@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: dual-motor-driver
+Version: 1.0.0
+Summary: Take in /cmd_vel to drive motors
+Home-page: UNKNOWN
+Maintainer: Dyllon Dunton
+Maintainer-email: duntondyllon@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

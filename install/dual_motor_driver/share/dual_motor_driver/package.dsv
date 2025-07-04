@@ -1,0 +1,6 @@
+source;share/dual_motor_driver/hook/pythonpath.ps1
+source;share/dual_motor_driver/hook/pythonpath.dsv
+source;share/dual_motor_driver/hook/pythonpath.sh
+source;share/dual_motor_driver/hook/ament_prefix_path.ps1
+source;share/dual_motor_driver/hook/ament_prefix_path.dsv
+source;share/dual_motor_driver/hook/ament_prefix_path.sh
