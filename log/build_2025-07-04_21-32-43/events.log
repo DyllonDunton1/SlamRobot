@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000915] (dual_motor_driver) JobQueued: {'identifier': 'dual_motor_driver', 'dependencies': OrderedDict()}
+[0.001202] (lidar_control) JobQueued: {'identifier': 'lidar_control', 'dependencies': OrderedDict()}
+[0.002180] (sensor_spawn) JobQueued: {'identifier': 'sensor_spawn', 'dependencies': OrderedDict()}
+[0.002970] (dual_motor_driver) JobStarted: {'identifier': 'dual_motor_driver'}
+[0.055919] (lidar_control) JobStarted: {'identifier': 'lidar_control'}
+[0.097560] (sensor_spawn) JobStarted: {'identifier': 'sensor_spawn'}
+[0.100681] (-) TimerEvent: {}
+[0.203340] (-) TimerEvent: {}
+[0.304363] (-) TimerEvent: {}
+[0.405081] (-) TimerEvent: {}
+[0.505823] (-) TimerEvent: {}
+[0.606599] (-) TimerEvent: {}
+[0.707275] (-) TimerEvent: {}
+[0.807928] (-) TimerEvent: {}
+[0.908618] (-) TimerEvent: {}
+[1.009340] (-) TimerEvent: {}
+[1.110212] (-) TimerEvent: {}
+[1.211573] (-) TimerEvent: {}
+[1.312515] (-) TimerEvent: {}
+[1.413206] (-) TimerEvent: {}
+[1.513902] (-) TimerEvent: {}
+[1.614677] (-) TimerEvent: {}
+[1.715358] (-) TimerEvent: {}
+[1.816042] (-) TimerEvent: {}
+[1.916743] (-) TimerEvent: {}
+[2.017425] (-) TimerEvent: {}
+[2.118199] (-) TimerEvent: {}
+[2.218991] (-) TimerEvent: {}
+[2.319976] (-) TimerEvent: {}
+[2.420757] (-) TimerEvent: {}
+[2.521473] (-) TimerEvent: {}
+[2.622148] (-) TimerEvent: {}
+[2.722809] (-) TimerEvent: {}
+[2.823519] (-) TimerEvent: {}
+[2.924261] (-) TimerEvent: {}
+[3.025163] (-) TimerEvent: {}
+[3.126820] (-) TimerEvent: {}
+[3.228291] (-) TimerEvent: {}
+[3.329391] (-) TimerEvent: {}
+[3.430879] (-) TimerEvent: {}
+[3.532859] (-) TimerEvent: {}
+[3.635270] (-) TimerEvent: {}
+[3.736621] (-) TimerEvent: {}
+[3.838153] (-) TimerEvent: {}
+[3.939777] (-) TimerEvent: {}
+[4.041120] (-) TimerEvent: {}
+[4.142380] (-) TimerEvent: {}
+[4.243904] (-) TimerEvent: {}
+[4.345641] (-) TimerEvent: {}
+[4.447051] (-) TimerEvent: {}
+[4.553934] (-) TimerEvent: {}
+[4.655198] (-) TimerEvent: {}
+[4.756778] (-) TimerEvent: {}
+[4.858911] (-) TimerEvent: {}
+[4.960835] (-) TimerEvent: {}
+[5.063824] (-) TimerEvent: {}
+[5.165882] (-) TimerEvent: {}
+[5.269447] (-) TimerEvent: {}
+[5.373515] (-) TimerEvent: {}
+[5.457657] (dual_motor_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dual_motor_driver', 'build', '--build-base', '/home/ubuntu/SlamRobot/build/dual_motor_driver/build', 'install', '--record', '/home/ubuntu/SlamRobot/build/dual_motor_driver/install.log', '--install-scripts', '$base/lib/dual_motor_driver', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/SlamRobot/src/dual_motor_driver', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1489', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/SlamRobot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:38323', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1638,unix/ubuntu:/tmp/.ICE-unix/1638', 'INVOCATION_ID': '51066613bfb54d7f939da0927b7e4939', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6b03e76c_d161_46fd_bb72_302e3e09f42e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.88', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/SlamRobot/install/sensor_spawn:/home/ubuntu/SlamRobot/install/dual_motor_driver:/home/ubuntu/SlamRobot/install/lidar_control:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/SlamRobot/build/dual_motor_driver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/SlamRobot/build/dual_motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.473807] (-) TimerEvent: {}
+[5.506059] (lidar_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_control', 'build', '--build-base', '/home/ubuntu/SlamRobot/build/lidar_control/build', 'install', '--record', '/home/ubuntu/SlamRobot/build/lidar_control/install.log', '--install-scripts', '$base/lib/lidar_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/SlamRobot/src/lidar_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1489', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/SlamRobot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:38323', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1638,unix/ubuntu:/tmp/.ICE-unix/1638', 'INVOCATION_ID': '51066613bfb54d7f939da0927b7e4939', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6b03e76c_d161_46fd_bb72_302e3e09f42e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.88', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/SlamRobot/install/sensor_spawn:/home/ubuntu/SlamRobot/install/dual_motor_driver:/home/ubuntu/SlamRobot/install/lidar_control:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/SlamRobot/build/lidar_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/SlamRobot/build/lidar_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.548115] (sensor_spawn) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_spawn', 'build', '--build-base', '/home/ubuntu/SlamRobot/build/sensor_spawn/build', 'install', '--record', '/home/ubuntu/SlamRobot/build/sensor_spawn/install.log', '--install-scripts', '$base/lib/sensor_spawn', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/SlamRobot/src/sensor_spawn', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '1584', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1489', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/SlamRobot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:38323', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1638,unix/ubuntu:/tmp/.ICE-unix/1638', 'INVOCATION_ID': '51066613bfb54d7f939da0927b7e4939', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6b03e76c_d161_46fd_bb72_302e3e09f42e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.88', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/SlamRobot/install/sensor_spawn:/home/ubuntu/SlamRobot/install/dual_motor_driver:/home/ubuntu/SlamRobot/install/lidar_control:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/SlamRobot/build/sensor_spawn', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/SlamRobot/build/sensor_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages:/home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.574151] (-) TimerEvent: {}
+[5.676050] (-) TimerEvent: {}
+[5.777527] (-) TimerEvent: {}
+[5.878503] (-) TimerEvent: {}
+[5.979918] (-) TimerEvent: {}
+[6.081273] (-) TimerEvent: {}
+[6.183621] (-) TimerEvent: {}
+[6.284503] (-) TimerEvent: {}
+[6.385976] (-) TimerEvent: {}
+[6.487414] (-) TimerEvent: {}
+[6.588976] (-) TimerEvent: {}
+[6.690534] (-) TimerEvent: {}
+[6.741726] (dual_motor_driver) StdoutLine: {'line': b'running egg_info\n'}
+[6.745058] (dual_motor_driver) StdoutLine: {'line': b'writing ../../build/dual_motor_driver/dual_motor_driver.egg-info/PKG-INFO\n'}
+[6.749092] (dual_motor_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/dual_motor_driver/dual_motor_driver.egg-info/dependency_links.txt\n'}
+[6.750779] (dual_motor_driver) StdoutLine: {'line': b'writing entry points to ../../build/dual_motor_driver/dual_motor_driver.egg-info/entry_points.txt\n'}
+[6.751419] (dual_motor_driver) StdoutLine: {'line': b'writing requirements to ../../build/dual_motor_driver/dual_motor_driver.egg-info/requires.txt\n'}
+[6.752068] (dual_motor_driver) StdoutLine: {'line': b'writing top-level names to ../../build/dual_motor_driver/dual_motor_driver.egg-info/top_level.txt\n'}
+[6.772826] (lidar_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.775811] (lidar_control) StdoutLine: {'line': b'writing ../../build/lidar_control/lidar_control.egg-info/PKG-INFO\n'}
+[6.777162] (lidar_control) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_control/lidar_control.egg-info/dependency_links.txt\n'}
+[6.778819] (lidar_control) StdoutLine: {'line': b'writing entry points to ../../build/lidar_control/lidar_control.egg-info/entry_points.txt\n'}
+[6.779873] (lidar_control) StdoutLine: {'line': b'writing requirements to ../../build/lidar_control/lidar_control.egg-info/requires.txt\n'}
+[6.780833] (lidar_control) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_control/lidar_control.egg-info/top_level.txt\n'}
+[6.794528] (-) TimerEvent: {}
+[6.826335] (sensor_spawn) StdoutLine: {'line': b'running egg_info\n'}
+[6.828998] (sensor_spawn) StdoutLine: {'line': b'writing ../../build/sensor_spawn/sensor_spawn.egg-info/PKG-INFO\n'}
+[6.830292] (sensor_spawn) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_spawn/sensor_spawn.egg-info/dependency_links.txt\n'}
+[6.831204] (sensor_spawn) StdoutLine: {'line': b'writing entry points to ../../build/sensor_spawn/sensor_spawn.egg-info/entry_points.txt\n'}
+[6.838706] (sensor_spawn) StdoutLine: {'line': b'writing requirements to ../../build/sensor_spawn/sensor_spawn.egg-info/requires.txt\n'}
+[6.839687] (sensor_spawn) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_spawn/sensor_spawn.egg-info/top_level.txt\n'}
+[6.894711] (-) TimerEvent: {}
+[6.911646] (dual_motor_driver) StdoutLine: {'line': b"reading manifest file '../../build/dual_motor_driver/dual_motor_driver.egg-info/SOURCES.txt'\n"}
+[6.915650] (dual_motor_driver) StdoutLine: {'line': b"writing manifest file '../../build/dual_motor_driver/dual_motor_driver.egg-info/SOURCES.txt'\n"}
+[6.916689] (dual_motor_driver) StdoutLine: {'line': b'running build\n'}
+[6.917239] (dual_motor_driver) StdoutLine: {'line': b'running build_py\n'}
+[6.920024] (dual_motor_driver) StdoutLine: {'line': b'running install\n'}
+[6.925387] (dual_motor_driver) StdoutLine: {'line': b'running install_lib\n'}
+[6.930552] (dual_motor_driver) StdoutLine: {'line': b'running install_data\n'}
+[6.945762] (dual_motor_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.946605] (dual_motor_driver) StdoutLine: {'line': b"removing '/home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages/dual_motor_driver-1.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.947223] (dual_motor_driver) StdoutLine: {'line': b'Copying ../../build/dual_motor_driver/dual_motor_driver.egg-info to /home/ubuntu/SlamRobot/install/dual_motor_driver/lib/python3.8/site-packages/dual_motor_driver-1.0.0-py3.8.egg-info\n'}
+[6.949245] (lidar_control) StdoutLine: {'line': b"reading manifest file '../../build/lidar_control/lidar_control.egg-info/SOURCES.txt'\n"}
+[6.952870] (dual_motor_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[6.954767] (lidar_control) StdoutLine: {'line': b"writing manifest file '../../build/lidar_control/lidar_control.egg-info/SOURCES.txt'\n"}
+[6.955646] (lidar_control) StdoutLine: {'line': b'running build\n'}
+[6.956888] (lidar_control) StdoutLine: {'line': b'running build_py\n'}
+[6.957495] (lidar_control) StdoutLine: {'line': b'running install\n'}
+[6.960770] (lidar_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.969625] (lidar_control) StdoutLine: {'line': b'running install_data\n'}
+[6.970676] (lidar_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.977616] (lidar_control) StdoutLine: {'line': b"removing '/home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages/lidar_control-1.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.979480] (lidar_control) StdoutLine: {'line': b'Copying ../../build/lidar_control/lidar_control.egg-info to /home/ubuntu/SlamRobot/install/lidar_control/lib/python3.8/site-packages/lidar_control-1.0.0-py3.8.egg-info\n'}
+[6.988249] (lidar_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.994887] (-) TimerEvent: {}
+[6.998786] (sensor_spawn) StdoutLine: {'line': b"reading manifest file '../../build/sensor_spawn/sensor_spawn.egg-info/SOURCES.txt'\n"}
+[7.003760] (sensor_spawn) StdoutLine: {'line': b"writing manifest file '../../build/sensor_spawn/sensor_spawn.egg-info/SOURCES.txt'\n"}
+[7.004871] (sensor_spawn) StdoutLine: {'line': b'running build\n'}
+[7.005685] (sensor_spawn) StdoutLine: {'line': b'running build_py\n'}
+[7.008028] (sensor_spawn) StdoutLine: {'line': b'running install\n'}
+[7.010444] (sensor_spawn) StdoutLine: {'line': b'running install_lib\n'}
+[7.017528] (sensor_spawn) StdoutLine: {'line': b'running install_data\n'}
+[7.021391] (sensor_spawn) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.029716] (sensor_spawn) StdoutLine: {'line': b"removing '/home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages/sensor_spawn-1.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.043112] (sensor_spawn) StdoutLine: {'line': b'Copying ../../build/sensor_spawn/sensor_spawn.egg-info to /home/ubuntu/SlamRobot/install/sensor_spawn/lib/python3.8/site-packages/sensor_spawn-1.0.0-py3.8.egg-info\n'}
+[7.043999] (sensor_spawn) StdoutLine: {'line': b'running install_scripts\n'}
+[7.044977] (dual_motor_driver) StdoutLine: {'line': b'Installing driver_node script to /home/ubuntu/SlamRobot/install/dual_motor_driver/lib/dual_motor_driver\n'}
+[7.046815] (dual_motor_driver) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/SlamRobot/build/dual_motor_driver/install.log'\n"}
+[7.095160] (-) TimerEvent: {}
+[7.101811] (lidar_control) StdoutLine: {'line': b'Installing lidar_viz script to /home/ubuntu/SlamRobot/install/lidar_control/lib/lidar_control\n'}
+[7.106935] (lidar_control) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/SlamRobot/build/lidar_control/install.log'\n"}
+[7.195647] (-) TimerEvent: {}
+[7.205644] (sensor_spawn) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/SlamRobot/build/sensor_spawn/install.log'\n"}
+[7.235963] (dual_motor_driver) CommandEnded: {'returncode': 0}
+[7.296205] (-) TimerEvent: {}
+[7.345575] (dual_motor_driver) JobEnded: {'identifier': 'dual_motor_driver', 'rc': 0}
+[7.352694] (lidar_control) CommandEnded: {'returncode': 0}
+[7.390699] (lidar_control) JobEnded: {'identifier': 'lidar_control', 'rc': 0}
+[7.396431] (-) TimerEvent: {}
+[7.396817] (sensor_spawn) CommandEnded: {'returncode': 0}
+[7.431362] (sensor_spawn) JobEnded: {'identifier': 'sensor_spawn', 'rc': 0}
+[7.436089] (-) EventReactorShutdown: {}
